@@ -80,7 +80,7 @@ Installation with Conda
     
     ```
     $ pip install --upgrade -r mesh/requirements.txt
-    $ pip install --no-deps --install-option="--boost-location=$$BOOST_INCLUDE_DIRS" --verbose --no-cache-dir mesh/.
+    $ pip install --no-deps --install-option="--boost-location=~/anaconda3/envs/my_venv/include/" --verbose --no-cache-dir mesh/.
     ```
 
 5. Done! Now you can add ``import psbody.mesh`` to any of your Python 3 scripts and execute them in the virtual environment thus created.
